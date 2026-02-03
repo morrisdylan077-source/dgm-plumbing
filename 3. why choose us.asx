@@ -1,0 +1,25 @@
+export default function WhyChooseUs() {
+  return (
+    <section className="bg-white py-16 px-6">
+      <h2 className="text-3xl font-bold text-center mb-10">Why Choose DGM Plumbing?</h2>
+      <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
+        <div>
+          <h3 className="font-semibold text-lg mb-2">Licensed & Insured</h3>
+          <p>Fully compliant with Australian standards.</p>
+        </div>
+        <div>
+          <h3 className="font-semibold text-lg mb-2">Upfront Pricing</h3>
+          <p>No surprises — clear communication from start to finish.</p>
+        </div>
+        <div>
+          <h3 className="font-semibold text-lg mb-2">Local & Reliable</h3>
+          <p>Proudly servicing East Melbourne and surrounding suburbs.</p>
+        </div>
+        <div>
+          <h3 className="font-semibold text-lg mb-2">20 Years Experience</h3>
+          <p>Trusted workmanship backed by decades in the trade.</p>
+        </div>
+      </div>
+    </section>
+  );
+}
